@@ -4,7 +4,7 @@ import { navItemsLeft, navItemsRight } from './navItems';
 
 const NavBar = () => {
     return (
-        <nav className="h-16 bg-darkBlue flex text-white font-semibold justify-between items-center gap max-w-[1400px] mx-auto  px-10">
+        <nav className="h-16 bg-darkBlue flex text-white font-semibold justify-between items-center gap max-w-[1300px] mx-auto  px-10">
             <NavBarList items={navItemsLeft}/>
             <NavBarList items={navItemsRight}/>
 
