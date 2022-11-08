@@ -2,7 +2,7 @@ import React from 'react';
 import Switch from "../../baseUI/Switch"
 
 /*kalau nk guna props, semua yg title kena tukar props*/
-const Section = ({title, items}) => {
+const Section = ({title, ...props}) => {
     return (
         /* different []  ngan takde [], 
         [] boleh decide guna px or whatever
@@ -10,7 +10,7 @@ const Section = ({title, items}) => {
         <section className='pt-[30px] px-10'>
             <div className='flex items-center gap-5'>
                     <h2 className='font-semibold text-2xl'>{title}</h2>
-                    <Switch items = {items}/>
+                    <Switch {...props}/>
             </div>
         </section>
     );
