@@ -1,3 +1,4 @@
+//toggle part 
 import React, { useState, useRef, useLayoutEffect } from 'react';
 
 const Switch = ({items, onToggle}) => {
@@ -7,7 +8,8 @@ const Switch = ({items, onToggle}) => {
     const [item2Width, setItem2Width] = useState();
     const item1Ref = useRef();
     const item2Ref = useRef();
-
+    
+    //untuk dapatkan length option antar dua tu
     useLayoutEffect(() =>{
         setItem1Width(item1Ref.current.offsetWidth)
         setItem2Width(item2Ref.current.offsetWidth)

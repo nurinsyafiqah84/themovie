@@ -15,7 +15,8 @@ module.exports = {
       'lightGreen': 'rgb(30,213,169)',
       'darkRed': '#b91c1c',
       'green': '#bbf7d0',
-      'black': '#000000'
+      'black': '#000000',
+      'slate400': '#94a3b8'
     },
     fontFamily:{
       // Array format:
