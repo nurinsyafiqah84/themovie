@@ -19,6 +19,7 @@ export default function Home() {
         <Section title="What's popular" items={["Streaming", "On TV", "For Rent", "In Theatres"]} onToggle={handleToggledValue}>
           <MovieList/>
         </Section>
+        
       </Container>
       <footer>
         <Footer/>
