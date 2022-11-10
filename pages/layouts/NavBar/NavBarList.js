@@ -3,7 +3,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"; // Import the 
 
 // import the icons you need
 import {
-  faSearch,
+  faSearch, 
   faPlus
 } from "@fortawesome/free-solid-svg-icons";
 

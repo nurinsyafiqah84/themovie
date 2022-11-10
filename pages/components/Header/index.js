@@ -1,3 +1,4 @@
+//page untuk panggil nav bar details
 import React from 'react';
 import NavBar from '../../layouts/NavBar/index';
 
